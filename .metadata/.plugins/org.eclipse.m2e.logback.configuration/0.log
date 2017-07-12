@@ -1,0 +1,96 @@
+2017-07-11 23:25:39,603 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework.samples:FireEmblemArenaSim:0.0.1-SNAPSHOT @ C:\FEHeroesSim\FireEmblemArenaSim\pom.xml.
+2017-07-11 23:25:41,585 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-11 23:25:41,587 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-11 23:25:41,927 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-11 23:25:41,928 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\FEHeroesSim\FireEmblemArenaSim\src\test\resources
+2017-07-11 23:25:42,070 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-11 23:25:42,070 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-11 23:25:42,071 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-11 23:25:42,071 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\FEHeroesSim\FireEmblemArenaSim\src\test\resources
+2017-07-11 23:25:54,422 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-07-11 23:25:57,769 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\FEHeroesSim\FireEmblemArenaSim
+2017-07-11 23:25:57,769 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2017-07-11 23:27:32,849 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ajplee:FEArenaSim:1.0.0-BUILD-SNAPSHOT @ C:\FEHeroesSim\FireEmblemArenaSim\pom.xml.
+2017-07-11 23:27:33,690 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:27:33,696 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:27:33,701 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:27:33,712 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:27:37,963 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:27:37,969 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:27:37,971 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:27:37,979 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:27:43,982 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-07-11 23:27:44,017 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\FEHeroesSim\FireEmblemArenaSim
+2017-07-11 23:27:44,021 [Worker-4] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2017-07-11 23:29:43,290 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ajplee:FEArenaSim:1.0.0-BUILD-SNAPSHOT @ C:\FEHeroesSim\FireEmblemArenaSim\pom.xml.
+2017-07-11 23:29:43,836 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/main/java
+2017-07-11 23:29:43,836 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/main/resources
+2017-07-11 23:29:43,836 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/test/java
+2017-07-11 23:29:43,840 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/test/resources
+2017-07-11 23:29:44,226 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-07-11 23:29:44,601 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:29:44,605 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:29:44,617 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:29:44,621 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:30:02,422 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-11 23:30:02,635 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ajplee:FEArenaSim:1.0.0-BUILD-SNAPSHOT @ C:\FEHeroesSim\FireEmblemArenaSim\pom.xml.
+2017-07-11 23:30:03,088 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/main/java
+2017-07-11 23:30:03,092 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/main/resources
+2017-07-11 23:30:03,096 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/test/java
+2017-07-11 23:30:03,096 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/test/resources
+2017-07-11 23:30:03,281 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FireEmblemArenaSim
+2017-07-11 23:30:03,284 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-07-11 23:30:03,885 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:30:03,889 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:30:03,897 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:30:03,902 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:30:03,904 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FireEmblemArenaSim
+2017-07-11 23:30:03,904 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FireEmblemArenaSim
+2017-07-11 23:30:03,912 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:30:06,336 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-07-11 23:30:06,378 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\FEHeroesSim\FireEmblemArenaSim
+2017-07-11 23:30:06,378 [Worker-6] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean install
+2017-07-11 23:30:12,598 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-07-11 23:30:16,267 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\FEHeroesSim\FireEmblemArenaSim
+2017-07-11 23:30:16,268 [Worker-14] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B build clean compile
+2017-07-11 23:30:44,960 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:30:44,970 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-11 23:30:44,970 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:30:44,978 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-07-11 23:31:07,310 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:07,327 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:31:07,338 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:07,356 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:31:07,357 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FireEmblemArenaSim
+2017-07-11 23:31:07,367 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FireEmblemArenaSim
+2017-07-11 23:31:07,375 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:12,554 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-11 23:31:12,734 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ajplee:FEArenaSim:1.0.0-BUILD-SNAPSHOT @ C:\FEHeroesSim\FireEmblemArenaSim\pom.xml.
+2017-07-11 23:31:13,189 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/main/java
+2017-07-11 23:31:13,189 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/main/resources
+2017-07-11 23:31:13,189 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/test/java
+2017-07-11 23:31:13,189 [Worker-13] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/test/resources
+2017-07-11 23:31:13,354 [Worker-13] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FireEmblemArenaSim
+2017-07-11 23:31:13,359 [Worker-13] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-07-11 23:31:14,013 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:14,018 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:31:14,031 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:14,050 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:31:14,058 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FireEmblemArenaSim
+2017-07-11 23:31:14,058 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FireEmblemArenaSim
+2017-07-11 23:31:14,066 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:25,861 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-07-11 23:31:26,046 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ajplee:FEArenaSim:1.0.0-BUILD-SNAPSHOT @ C:\FEHeroesSim\FireEmblemArenaSim\pom.xml.
+2017-07-11 23:31:26,454 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/main/java
+2017-07-11 23:31:26,454 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/main/resources
+2017-07-11 23:31:26,454 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FireEmblemArenaSim/src/test/java
+2017-07-11 23:31:26,454 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FireEmblemArenaSim/src/test/resources
+2017-07-11 23:31:26,641 [Worker-2] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for FireEmblemArenaSim
+2017-07-11 23:31:26,648 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-07-11 23:31:27,289 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:27,297 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:31:27,303 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-11 23:31:27,311 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-07-11 23:31:27,313 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FireEmblemArenaSim
+2017-07-11 23:31:27,313 [Worker-14] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FireEmblemArenaSim
+2017-07-11 23:31:27,316 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

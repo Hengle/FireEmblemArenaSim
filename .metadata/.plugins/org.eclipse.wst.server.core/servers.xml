@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" com.springsource.tcserver.asf="false" com.springsource.tcserver.name="FeArenaSim" configuration-id="/Servers/FeArenaSim - Pivotal tc Server Developer Edition-config" deployDir="wtpwebapps" hostname="localhost" id="FeArenaSim - Pivotal tc Server Developer Edition" instanceDir="C:\dev\spring-tool-suite-3.7.0.RELEASE-e4.5-win32-x86_64\sts-bundle\pivotal-tc-server-developer-3.1.1.RELEASE" name="FeArenaSim - Pivotal tc Server Developer Edition" runtime-id="Pivotal tc Server Developer Edition (Runtime) v3.1" saveSeparateContextFiles="true" server-type="com.pivotal.server.tc.80" server-type-id="com.pivotal.server.tc.80" start-timeout="120" stop-timeout="15" testEnvironment="false" timestamp="5">
+    <list key="modules" value0="FireEmblemArenaSim::org.eclipse.jst.jee.server:FireEmblemArenaSim::jst.web::2.5"/>
+    <list key="addExtraVmArgs" value0="-Dinsight.enabled=false"/>
+    <list key="removeExtraVmArgs"/>
+  </server>
+</servers>
