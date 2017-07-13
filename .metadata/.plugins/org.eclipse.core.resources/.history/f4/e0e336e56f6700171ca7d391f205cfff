@@ -1,0 +1,59 @@
+package com.ajplee.FEArenaSim.etl;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import java.net.URL;
+import java.net.HttpURLConnection;
+
+//import com.fasterxml.jackson.databind.ObjectMapper;
+
+import org.apache.log4j.Logger;
+
+public class Etl {
+	final static Logger logger = Logger.getLogger("ETL");
+	private String jsonText;
+	
+	public void run() throws Exception {
+		getData();
+		loadData();
+	}
+	
+	public void getData() throws Exception {
+		HttpURLConnection conn = null;
+		try {
+			URL FireEmblemHeroesUrl = new URL("https://kagerochart.com/dist/scripts/damage-calc/char.js");
+			conn = (HttpURLConnection) FireEmblemHeroesUrl.openConnection();
+			
+			InputStreamReader ir = new InputStreamReader(conn.getInputStream());
+			BufferedReader br = new BufferedReader(ir);
+			StringBuilder sb = new StringBuilder();
+	        String line;
+	        while ((line = br.readLine()) != null) {
+	          sb.append(line + "\n");
+	        }
+	        ir.close();
+	        br.close();
+	        	
+	        jsonText = sb.toString();
+		} catch (Exception e) {
+			logger.error("Http Connection failed" + e.getMessage());
+		} finally {
+			if(conn != null) {
+				conn.disconnect();
+			}
+		}
+        System.out.println(jsonText);
+	}
+	
+	public void loadData() throws Exception {
+		
+	}
+	 
+
+
+	public static void main(String[] args) throws Exception {
+		Etl etl = new Etl();
+		etl.run();
+	}
+}
