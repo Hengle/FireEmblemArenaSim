@@ -18,17 +18,29 @@ public class Etl {
 	private String jsonText;
 	private Heroes[] heroes;
 	
+	private static String hsURL = "https://api.hearthstonejson.com/v1/20022/enUS/cards.json";
+	private static String charURL = "https://kagerochart.com/dist/scripts/damage-calc/char.js";
+	private static String specialURL = "https://kagerochart.com/dist/scripts/damage-calc/special.js";
+	private static String weaponURL = "https://kagerochart.com/dist/scripts/damage-calc/weapon.js";
+	
 	public void run() throws Exception {
-		getData();
+		//getData(hsURL);
+		getData(charURL);
+		transformData();
+		//loadData();
+		//getData(specialURL);
+		//transformData();
+		//loadData();
+		//getData(weaponURL);
 		//transformData();
 		//loadData();
 	}
 	//https://api.hearthstonejson.com/v1/20022/enUS/cards.json
 	//https://kagerochart.com/dist/scripts/damage-calc/char.js
-	public void getData() throws Exception {
+	public void getData(String url) throws Exception {
 		HttpURLConnection conn = null;
 		try {
-			URL FireEmblemHeroesUrl = new URL("https://kagerochart.com/dist/scripts/damage-calc/char.js");
+			URL FireEmblemHeroesUrl = new URL(url);
 			conn = (HttpURLConnection) FireEmblemHeroesUrl.openConnection();
 			conn.setRequestProperty(
 			          "User-Agent",
@@ -52,6 +64,9 @@ public class Etl {
 	        	
 	        jsonText = sb.toString();
 	        jsonText = jsonText.substring(13);
+	        jsonText = "[" + jsonText;
+	        jsonText = jsonText.substring(0, jsonText.length() - 13);
+	        jsonText += "]";
 		} catch (Exception e) {
 			logger.error("Parsing failed" + e.getMessage());
 		} finally {
@@ -66,13 +81,17 @@ public class Etl {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
 			heroes = mapper.readValue(jsonText, Heroes[].class);	
-		} catch (Exception e) {
-			logger.error("Transforming data failed" + e.getMessage());
+			System.out.println(heroes.length);
+		} catch (IOException e) {
+			logger.error("Transforming data failed " + e.getMessage());
 		}
+		
 	}
 	
 	public void loadData() throws Exception {
-		
+		for (Heroes hero : heroes) {
+			return;
+		}
 	}
 	 
 
