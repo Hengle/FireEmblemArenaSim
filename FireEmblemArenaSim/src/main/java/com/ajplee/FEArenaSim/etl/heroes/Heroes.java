@@ -87,7 +87,17 @@ public class Heroes {
 			}
 			string.append("} \n");
 		}
-		
+		string.append(" rarity_restrict:{");
+		if(rarity_restrict != null) {
+			for(Map<String, Integer> rarity : rarity_restrict) {
+				string.append(rarity + ":{");
+				for(Map.Entry<String, Integer> entry : rarity.entrySet()) {
+					string.append(entry.getKey() + ":" + entry.getValue());
+				}
+				string.append("} \n");
+			}
+			string.append("} \n");
+		}
 		
 		return string.toString();
 		
