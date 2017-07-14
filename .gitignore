@@ -38,3 +38,9 @@ out
 test-output
 atlassian-ide-plugin.xml
 .gradletasknamecache
+
+local.properties
+.classpath
+.settings/
+.loadpath
+.recommenders/
