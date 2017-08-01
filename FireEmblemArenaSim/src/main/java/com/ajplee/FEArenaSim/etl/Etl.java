@@ -8,6 +8,7 @@ import java.net.URL;
 import java.net.HttpURLConnection;
 
 import com.ajplee.FEArenaSim.etl.heroes.Heroes;
+import com.ajplee.FEArenaSim.etl.heroes.Assist;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.slf4j.Logger;
@@ -17,15 +18,17 @@ public class Etl {
 	final static Logger logger = LoggerFactory.getLogger("ETL");
 	private String jsonText;
 	private Heroes[] heroes;
+	private Assist[] assist;
 	
-	private static String hsURL = "https://api.hearthstonejson.com/v1/20022/enUS/cards.json";
-	private static String charURL = "https://kagerochart.com/dist/scripts/damage-calc/char.js";
-	private static String specialURL = "https://kagerochart.com/dist/scripts/damage-calc/special.js";
-	private static String weaponURL = "https://kagerochart.com/dist/scripts/damage-calc/weapon.js";
+	private static final String hsURL = "https://api.hearthstonejson.com/v1/20022/enUS/cards.json";
+	private static final String charURL = "https://kagerochart.com/dist/scripts/damage-calc/char.js";
+	private static final String specialURL = "https://kagerochart.com/dist/scripts/damage-calc/special.js";
+	private static final String weaponURL = "https://kagerochart.com/dist/scripts/damage-calc/weapon.js";
+	private static final String assistURL = "https://kagerochart.com/dist/scripts/damage-calc/assist.js";
 	
 	public void run() throws Exception {
 		//getData(hsURL);
-		getData(charURL);
+		getData(assistURL);
 		transformData();
 		//loadData();
 		//getData(specialURL);
@@ -63,10 +66,6 @@ public class Etl {
 	        br.close();
 	        	
 	        jsonText = sb.toString();
-	        jsonText = jsonText.substring(13);
-	        jsonText = "[" + jsonText;
-	        jsonText = jsonText.substring(0, jsonText.length() - 13);
-	        jsonText += "]";
 		} catch (Exception e) {
 			logger.error("Parsing failed" + e.getMessage());
 		} finally {
@@ -80,7 +79,7 @@ public class Etl {
 	public void transformData() throws Exception {
 		ObjectMapper mapper = new ObjectMapper();
 		try {
-			heroes = mapper.readValue(jsonText, Heroes[].class);	
+			assist = mapper.readValue(jsonText, Assist[].class);	
 			System.out.println(heroes.length);
 		} catch (IOException e) {
 			logger.error("Transforming data failed " + e.getMessage());
